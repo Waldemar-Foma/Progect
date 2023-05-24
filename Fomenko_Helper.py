@@ -23,8 +23,8 @@ while flag: # Бесконечный цикл
     string = input('Введи запрос: ').lower() # Пользователь вводит свой запрос
 
     if string == 'привет' or 'hi' in string:
-        print('Привет', name, end='!')
-        if input('Закончить программу? (Y/n): ') == 'Y':
+        print('Привет', name, end='! ')
+        if input('Закончить программу? (Y/n): ').lower() == 'Y':
             flag = False
     if 'фильм' in string:
         input_genre_1 = input('Введи жанр фильма, который хотел бы посмотреть: ').lower()

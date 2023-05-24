@@ -24,7 +24,7 @@ while flag: # Бесконечный цикл
 
     if string == 'привет' or 'hi' in string:
         print('Привет', name, end='! ')
-        if input('Закончить программу? (Y/n): ').lower() == 'Y':
+        if input('Закончить программу? (Y/n): ').lower() == 'y':
             flag = False
     if 'фильм' in string:
         input_genre_1 = input('Введи жанр фильма, который хотел бы посмотреть: ').lower()
